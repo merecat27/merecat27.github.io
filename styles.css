@@ -1,0 +1,69 @@
+html {
+  font-family: ubuntu;
+  overflow: scroll;
+}
+
+.color-box {
+  padding: 10px 20px;
+  margin: 10px;
+  min-width: 200px;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 5px;
+  /* text-align: center; */
+}
+
+/* background */
+.slate-grey {
+  color: white;
+  background-color: #252525;
+}
+
+/* text */
+.cloudy-sky {
+  color: black;
+  background-color: #DDD;
+}
+
+/* details */
+.subdued-red {
+  color: white;
+  background-color: #BE0000;
+}
+
+.homepage {
+  background-color: #252525;
+  color: #DDD;
+}
+
+footer {
+  color: #BE0000;
+}
+
+.font-box {
+  padding: 10px 20px;
+  margin: 10px;
+  width: auto;
+  min-height: 170px;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+/* general use */
+.ubuntu {
+  font-family: ubuntu;
+}
+
+/* code */
+.code {
+  font-family: courier;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
