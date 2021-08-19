@@ -6,6 +6,16 @@ html {
 body {
   width: 400px;
   margin: auto;
+  padding-top: 50px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.intro {
+  text-align: center;
 }
 
 .color-box {
