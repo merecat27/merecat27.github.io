@@ -3,7 +3,7 @@ html {
   overflow: scroll;
 }
 
-header {
+h1 {
   text-align: center;
   padding-bottom: 20px;
   color: #BE0000;
