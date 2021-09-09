@@ -1,0 +1,42 @@
+html {
+  font-family: ubuntu;
+  overflow: scroll;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: Luminari Garamond serif;
+  color: #BE0000;
+}
+
+main {
+  width: 500px;
+  margin: auto;
+}
+
+footer {
+  color: #BE0000;
+  background-color: #111111;
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+  right: 0px;
+}
+
+.item {
+  border-radius: 20px;
+  max-width: 240px;
+  display: inline-block;
+}
+
+.homepage {
+  background-color: #252525;
+  color: #DDD;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+}
