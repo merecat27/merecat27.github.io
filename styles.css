@@ -3,15 +3,21 @@ html {
   overflow: scroll;
 }
 
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: Luminari Garamond serif;
+  color: #BE0000;
+}
+
 body {
-  width: 400px;
+  width: 500px;
   margin: auto;
   padding-top: 50px;
 }
 
-header {
-  text-align: center;
-  padding-bottom: 20px;
+.item {
+  border-radius: 20px;
 }
 
 .intro {
@@ -82,6 +88,7 @@ a {
 /* code */
 .code {
   font-family: courier;
+  font-weight: bold;
 }
 
 .italics {
