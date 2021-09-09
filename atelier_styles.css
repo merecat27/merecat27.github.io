@@ -7,7 +7,7 @@ html {
 body {
   background-color: #252525;
   color: #DDD;
-  width: 600px;
+  width: 800px;
   margin: auto;
   padding-top: 50px;
 }
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   padding-top: 20px;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
 }
 
 footer {
@@ -35,10 +35,11 @@ img {
   max-width: 200px;
   max-height: 200px;
   display: inline-block;
+  padding: 5px;
 }
 
 .item {
-  padding-bottom: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 a {
