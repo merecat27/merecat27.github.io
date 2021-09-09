@@ -1,42 +1,49 @@
 html {
   font-family: ubuntu;
   overflow: scroll;
-}
-
-header {
   text-align: center;
-  padding-bottom: 20px;
-  font-family: Luminari Garamond serif;
-  color: #BE0000;
 }
 
-main {
-  width: 500px;
+body {
+  background-color: #252525;
+  color: #DDD;
+  width: 600px;
   margin: auto;
+  padding-top: 50px;
+}
+
+h1 {
+  /* text-align: center; */
+  padding-bottom: 20px;
+  color: #BE0000;
 }
 
 footer {
   color: #BE0000;
-  background-color: #111111;
-  width: 100%;
-  position: sticky;
+  background-color: #252525;
+  position: absolute;
   bottom: 0px;
   right: 0px;
 }
 
-.item {
-  border-radius: 20px;
-  max-width: 240px;
+img {
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: 200px;
   display: inline-block;
 }
 
-.homepage {
-  background-color: #252525;
-  color: #DDD;
+.item {
+  padding-bottom: 10px;
 }
 
 a {
   font-weight: bold;
   text-decoration: none;
   color: grey;
+}
+
+.code {
+  font-family: courier;
+  font-weight: bold;
 }
