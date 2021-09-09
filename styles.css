@@ -23,16 +23,6 @@ body {
   text-align: center;
 }
 
-.color-box {
-  padding: 10px 20px;
-  margin: 10px;
-  min-width: 200px;
-  display: inline-block;
-  border: 3px solid black;
-  border-radius: 5px;
-  /* text-align: center; */
-}
-
 .homepage {
   background-color: #252525;
   color: #DDD;
@@ -59,11 +49,6 @@ a {
   display: inline-block;
   border: 3px solid black;
   border-radius: 5px;
-}
-
-/* general use */
-.ubuntu {
-  font-family: ubuntu;
 }
 
 /* code */
