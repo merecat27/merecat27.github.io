@@ -13,15 +13,19 @@ body {
 }
 
 h1 {
-  /* text-align: center; */
   padding-bottom: 20px;
   color: #BE0000;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 footer {
   color: #BE0000;
   background-color: #252525;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   right: 0px;
 }
