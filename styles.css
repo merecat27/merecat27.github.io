@@ -6,7 +6,6 @@ html {
 header {
   text-align: center;
   padding-bottom: 20px;
-  font-family: Luminari Garamond serif;
   color: #BE0000;
 }
 
@@ -32,24 +31,6 @@ body {
   border: 3px solid black;
   border-radius: 5px;
   /* text-align: center; */
-}
-
-/* background */
-.slate-grey {
-  color: white;
-  background-color: #252525;
-}
-
-/* text */
-.cloudy-sky {
-  color: black;
-  background-color: #DDD;
-}
-
-/* details */
-.subdued-red {
-  color: white;
-  background-color: #BE0000;
 }
 
 .homepage {
