@@ -1,3 +1,6 @@
+/* *{
+  border: 1px solid red;
+} */
 html {
   font-family: ubuntu;
   overflow-y: scroll;
@@ -20,6 +23,10 @@ h1 {
 h2 {
   padding-top: 20px;
   /* padding-bottom: 5px; */
+}
+
+nav {
+  
 }
 
 nav li {
