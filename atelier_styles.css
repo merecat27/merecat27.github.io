@@ -22,6 +22,10 @@ h2 {
   /* padding-bottom: 5px; */
 }
 
+nav li {
+  list-style: none;
+}
+
 footer {
   color: #BE0000;
   background-color: #252525;
