@@ -1,0 +1,58 @@
+html {
+  font-family: ubuntu;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+body {
+  background-color: #252525;
+  color: #DDD;
+  width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+h1 {
+  padding-bottom: 20px;
+  color: #BE0000;
+}
+
+h2 {
+  padding-top: 20px;
+  /* padding-bottom: 5px; */
+}
+
+nav li {
+  list-style: none;
+}
+
+footer {
+  color: #BE0000;
+  background-color: #252525;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: 200px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.item {
+  padding: 0 10px 10px 10px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+}
+
+.code {
+  font-family: courier;
+  font-weight: bold;
+}
