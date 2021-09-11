@@ -21,6 +21,10 @@ body {
   padding-top: 50px;
 }
 
+header {
+  margin-left: 175px;
+}
+
 main {
   margin-left: 175px;
   margin-bottom: 30px;
