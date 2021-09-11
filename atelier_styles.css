@@ -1,6 +1,11 @@
-/* *{
-  border: 1px solid red;
-} */
+*{
+  /* border: 1px solid red; */
+}
+
+:root {
+  --darkred: #BE0000;
+}
+
 html {
   font-family: ubuntu;
   overflow-y: scroll;
@@ -17,31 +22,45 @@ body {
 
 h1 {
   padding-bottom: 20px;
-  color: #BE0000;
+  color: var(--darkred);
 }
 
 h2 {
-  padding-top: 20px;
-  /* padding-bottom: 5px; */
+  padding: 20px;
+  margin-bottom: 5px; */
 }
 
+/* BEGIN nav bar */
 nav {
-  
+  background-color: #101010;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#logo {
+  height: 200px;
+  width: auto;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+nav ul {
+  margin-top: 35px;
+  padding-left: 0;
+  text-align: left;
 }
 
 nav li {
   list-style: none;
+  padding: 7px;
 }
+/* END nav bar */
 
-footer {
-  color: #BE0000;
-  background-color: #252525;
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-}
-
-img {
+.item img {
   border-radius: 10px;
   max-width: 200px;
   max-height: 200px;
@@ -49,8 +68,16 @@ img {
   padding: 5px;
 }
 
+footer {
+  color: var(--darkred);
+  background-color: #252525;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
 .item {
-  padding: 0 10px 10px 10px;
+  padding: 10px;
 }
 
 a {
