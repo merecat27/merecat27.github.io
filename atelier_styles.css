@@ -75,7 +75,7 @@ nav li {
 /* END nav bar */
 
 .item img {
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 200px;
   max-height: 200px;
   display: inline-block;
